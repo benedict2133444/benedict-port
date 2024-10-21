@@ -5,9 +5,10 @@ import {default as Experiences} from '../../components/Experience/Experience'
 function Experience() {
   return (
     <div className="min-h-screen bg-bg-primary">
+
       <Header />
 <Experiences/>
-    </div>
+</div>
   )
 }
 

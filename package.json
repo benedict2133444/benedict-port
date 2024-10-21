@@ -1,5 +1,5 @@
 {
-  "name": "Benedict-Masculino",
+  "name": "benedict-masculino",
   "description": "A website portfolio built in reactjs ecosystem",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +21,8 @@
     "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-modern-drawer": "^1.4.0",
     "react-router-dom": "^6.27.0",
     "react-scroll": "^1.9.0"

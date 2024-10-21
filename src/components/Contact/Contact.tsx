@@ -5,7 +5,7 @@ import ContactItem from './ContactItem'
 function Contact() {
   return (
     <Element name="contact">
-      <div className="bg-bg-secondary">
+      <div className="bg-bg-primary">
         <div className="mx-auto w-[min(1000px,90%)] py-12">
           <h2 className="text-center font-display text-5xl text-white ">
             Contact Me
