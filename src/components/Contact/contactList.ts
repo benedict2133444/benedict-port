@@ -2,7 +2,7 @@ export const contactList = [
   {
     id: 'email',
     thumbnail: 'contact/mail.svg',
-    detail: 'arvin@gmail.com'
+    detail: 'benedictmasculino@gmail.com'
   },
   {
     id: 'number',
@@ -17,6 +17,6 @@ export const contactList = [
   {
     id: 'location',
     thumbnail: 'contact/location.svg',
-    detail: 'San Miguel, Iloilo'
+    detail: 'Oton, Iloilo'
   }
 ]
