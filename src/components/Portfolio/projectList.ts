@@ -7,11 +7,11 @@ export const projectList = [
       'A basic application to manage daily tasks. Users can add, delete, and mark tasks as complete. You can enhance it by adding features like deadlines, priority tags, or categories.'
   },
   {
-    name: 'Library Management System',
+    name: 'Car Dealership',
     id: 'lms',
-    thumbnail: 'portfolio/portfolio_2.jpg',
+    thumbnail: 'portfolio/pr_2.png',
     description:
-      'A system where users can manage library books, borrowers, and borrowing records. It should support book check-in/check-out, fine calculations, and member management.'
+      'An online car dealership is a digital platform or website that allows customers to buy, sell, or lease vehicles over the internet. Unlike traditional car dealerships that require customers to visit a physical location, online car dealerships provide a fully virtual shopping experience. Here are some key features and aspects of online car dealerships:'
   },
   {
     name: 'Food Ordering Application(figma)',
@@ -21,11 +21,11 @@ export const projectList = [
       'Kalan-an is your ultimate food ordering companion, designed to bring your favorite meals right to your doorstep with just a few taps. Whether youre craving pizza, sushi, or a healthy salad, our app offers a seamless and intuitive experience to satisfy your hunger anytime, anywhere.'
   },
   {
-    name: ' Student Management System',
+    name: 'Food ordering Application(Android studio)',
     id: 'sms',
-    thumbnail: 'portfolio/portfolio_4.jpg',
+    thumbnail: 'portfolio/pr_1.png',
     description:
-      'A web application where admins can add, update, and remove student information, such as grades, attendance, and personal details. Students can view their details and grades.'
+      'Kalan-an is your ultimate food ordering companion, designed to bring your favorite meals right to your doorstep with just a few taps. Whether youre craving pizza, sushi, or a healthy salad, our app offers a seamless and intuitive experience to satisfy your hunger anytime, anywhere.'
   },
   {
     name: 'Online Voting System',
