@@ -6,7 +6,5 @@ export const skillList = [
   { id: 'java', name: 'Java', thumbnail: 'skill/java.png' },
   { id: 'figma', name: 'Figma', thumbnail: 'skill/figma.png' },
   { id: 'mysql', name: 'MYSQ', thumbnail: 'skill/mysql.png' },
-  { id: 'msoffice', name: 'MS Office', thumbnail: 'skill/office.png' },
-  { id: 'csharp', name: 'C#', thumbnail: 'skill/c-.png' },
   { id: 'git', name: 'GIT', thumbnail: 'skill/git.png' }
 ]

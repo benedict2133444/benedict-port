@@ -8,7 +8,8 @@ function About() {
       <div className="min-h-screen bg-bg-primary  py-16">
         <div className="mx-auto w-[min(1000px,90%)]">
           <h2 className="mb-8">
-            <span className="font-display text-5xl text-white">About</span>
+          <span className="font-display text-5xl text-text-primary">About</span>
+
           </h2>
           <p className="text-white italic tracking-wide">
             My name is Benedict Masculino. I'm 20 years old, and I'm from Oton, Iloilo.
