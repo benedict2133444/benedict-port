@@ -20,3 +20,4 @@ export const contactList = [
     detail: 'Oton, Iloilo'
   }
 ]
+

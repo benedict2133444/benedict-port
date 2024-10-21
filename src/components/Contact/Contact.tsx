@@ -7,7 +7,7 @@ function Contact() {
     <Element name="contact">
       <div className="bg-bg-primary">
         <div className="mx-auto w-[min(1000px,90%)] py-12">
-          <h2 className="text-center font-display text-5xl text-white ">
+          <h2 className="text-center font-display text-5xl text-text-primary ">
             Contact Me
           </h2>
           <div className="flex justify-center py-16">

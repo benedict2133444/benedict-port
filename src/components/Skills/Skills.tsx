@@ -8,9 +8,10 @@ function Skills() {
     <Element name="skills">
       <div className="bg-bg-primary py-8">
         <div className="mx-auto mt-10 w-[min(1000px,90%)]">
-          <h2 className="text-center font-display text-5xl font-black text-">
-            My skills
-          </h2>
+        <h2 className="text-center font-display text-5xl text-text-primary">
+  My Skills
+</h2>
+
 
           <ul className="my-8 flex flex-wrap justify-center gap-4">
             {skillList.map((item) => SkillCard(item))}

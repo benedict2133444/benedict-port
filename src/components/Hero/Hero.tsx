@@ -1,6 +1,10 @@
 import React from 'react'
 import HeroImage from '../../assets/hero.png'
 import HeroImageSmall from '../../assets/hero_sm.png'
+
+
+
+
 function Hero() {
   return (
     <div className="  flex h-4/5 grow items-center shadow-lg shadow-[#2A2D33]">
@@ -18,10 +22,10 @@ function Hero() {
                 {' '}
                 I&apos;M
               </span>
-              <span className="font-display text-4xl text-text-primary sm:text-6xl" >
-                {' '}
-                Benedict Masculino
-              </span>
+              <span className="font-pirata text-4xl text-text-primary sm:text-6xl">
+  {' '}
+  Benedict Masculino
+</span>
             </h1>
             <p className="text-xl font-light text-white sm:text-2xl italic tracking-wide">
   Information Technology Student
