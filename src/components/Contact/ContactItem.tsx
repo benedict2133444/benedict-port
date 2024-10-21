@@ -15,7 +15,7 @@ function ContactItem(data) {
           className="object-cover"
         />
       </div>
-      <p className="text-lg font-light text-text-primary">{detail}</p>
+      <p className="text-lg font-light text-bold text-text-secondary">{detail}</p>
     </div>
   )
 }

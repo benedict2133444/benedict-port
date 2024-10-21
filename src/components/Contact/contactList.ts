@@ -2,15 +2,15 @@ export const contactList = [
   {
     id: 'email',
     thumbnail: 'contact/mail.svg',
-    detail: 'benedictmasculino@gmail.com'
+    detail: '@Benedictmasculino'
   },
   {
     id: 'number',
     thumbnail: 'contact/phone.svg',
-    detail: '+63967384922'
+    detail: '+639944304393'
   },
   {
-    id: 'github',
+    id: 'benedict2133444',
     thumbnail: 'contact/github.svg',
     detail: 'github'
   },
