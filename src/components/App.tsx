@@ -21,7 +21,7 @@ function App() {
 
 const router = createBrowserRouter([
   {
-    path: '/portfolio',
+    path: '/benedict-port',
     element: <Homepage />
   },
   {
