@@ -15,7 +15,7 @@ function Header() {
       <div className="mx-auto flex w-[min(1000px,90%)] py-8">
         <div>
           <div className="">
-            <Link to="/portfolio">
+            <Link to="/benedict-port">
               <span className="text-lg font-bold text-text-primary">Benedict</span>
             </Link>
           </div>

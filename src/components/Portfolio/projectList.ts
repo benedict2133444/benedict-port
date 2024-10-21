@@ -14,11 +14,11 @@ export const projectList = [
       'A system where users can manage library books, borrowers, and borrowing records. It should support book check-in/check-out, fine calculations, and member management.'
   },
   {
-    name: 'Weather Forecasting Application',
+    name: 'Food Ordering Application(figma)',
     id: 'wfa',
-    thumbnail: 'portfolio/portfolio_3.jpg',
+    thumbnail: 'portfolio/pr_1.png',
     description:
-      'A simple web or mobile app that fetches and displays weather data for a given location using a weather API. Users should be able to search for different cities and view current and forecasted weather.'
+      'Kalan-an is your ultimate food ordering companion, designed to bring your favorite meals right to your doorstep with just a few taps. Whether youre craving pizza, sushi, or a healthy salad, our app offers a seamless and intuitive experience to satisfy your hunger anytime, anywhere.'
   },
   {
     name: ' Student Management System',
