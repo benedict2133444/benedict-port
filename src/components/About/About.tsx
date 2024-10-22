@@ -4,44 +4,23 @@ import { Element } from 'react-scroll'
 function About() {
   return (
     <Element name="about">
-      <div className="relative bg-bg-primary py-16">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-blue-800 to-black opacity-30 pointer-events-none"></div>
-
-        <div className="relative z-10 mx-auto w-[min(1000px,90%)] text-center">
+      <div className="min-h-screen bg-bg-primary flex items-center justify-center py-16">
+        
+        <div className="bg-black bg-opacity-90 p-8 rounded-lg shadow-md w-[min(1000px,90%)] text-center">
           <h2 className="mb-8">
-            <span className="font-display text-6xl text-text-primary tracking-wider">ABOUT</span>
+            <span className="font-display text-5xl text-text-primary">ABOUT</span>
           </h2>
-
-          {/* Divider Line */}
-          <div className="w-24 mx-auto mb-8 border-b-2 border-text-primary"></div>
-
-          {/* About Text */}
-          <p className="text-white text-xl italic tracking-wide leading-relaxed">
-            <span className="font-semibold">My name is Benedict Masculino.</span> I'm 20 years old from Oton, Iloilo. I love playing basketball, and I'm totally fixated with it. 
-            When I'm not on the court, I'm usually jamming to metal bands like Slipknot and Korn. <br />
-            My favorite colors are <span className="text-blue-500 font-semibold">black</span> for the base and <span className="text-blue-400 font-semibold">blue</span> for the secondary.
+          <p className="text-white text-lg italic tracking-wide leading-relaxed max-w-prose mx-auto">
+            My name is <span className="font-semibold">Benedict Masculino</span>. I'm 20 years old, and I'm from Oton, Iloilo. I love playing basketball because I'm totally fixated on it. 
+            As for my hobbies, I enjoy listening to music, especially metal bands like <span className="text-blue-400">Slipknot</span> and <span className="text-blue-400">Korn</span>. 
+            My favorite colors are <span className="text-blue-400">black</span> (probably for the base) and <span className="text-blue-400">blue</span> (for the secondary color).
+            <br /><br />
+            As for my personality, I'm just a normal guy with a bit of a mischievous side. I'm an ambivert who enjoys hanging out with friends, and I'm totally responsible, especially in school (sometimes!).
           </p>
-
-          {/* Fun Fact Section */}
-          <div className="mt-10 p-4 bg-black/30 rounded-lg shadow-lg text-white italic">
-            <h3 className="text-2xl font-bold mb-4">Fun Fact:</h3>
-            <p className="text-lg">
-              I’m an ambivert who loves hanging out with friends, but I can also be a little mischievous.
-              I’m mostly responsible, especially when it comes to school... well, sometimes!
-            </p>
-          </div>
-
-          {/* Icons Section (Optional) */}
-          <div className="mt-12 flex justify-center gap-8 text-4xl text-text-primary">
-            <i className="fas fa-basketball-ball"></i> {/* Basketball icon */}
-            <i className="fas fa-music"></i>           {/* Music icon */}
-            <i className="fas fa-smile"></i>            {/* Personality icon */}
-          </div>
         </div>
       </div>
     </Element>
-  )
+  );
 }
 
-export default About
+export default About;

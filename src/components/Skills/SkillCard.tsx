@@ -1,12 +1,12 @@
-import React from 'react'
-import getImageUrl from 'utils/image-util'
+import React from 'react';
+import getImageUrl from 'utils/image-util';
 
 function SkillCard({ id, name, thumbnail }) {
   return (
-    <li key={id} className="transform transition-all hover:scale-105">
-      <div className="flex h-48 w-44 flex-col items-center justify-center gap-5 rounded-xl bg-bg-accent shadow-lg shadow-black/30 hover:bg-gradient-to-b from-text-primary to-bg-accent hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 ease-in-out">
-      
-        <div className="w-20 h-20 p-2 bg-white rounded-full shadow-md">
+    <li key={id} className="transform transition-transform hover:scale-105">
+      <div className="flex flex-col items-center justify-center h-56 w-48 p-6 rounded-xl bg-bg-accent shadow-lg shadow-black/30 transition-all duration-300 ease-in-out hover:bg-gradient-to-b from-blue-600 to-blue-800 hover:shadow-2xl">
+        {/* Thumbnail Image */}
+        <div className="w-24 h-24 p-2 bg-white rounded-full shadow-md flex items-center justify-center">
           <img
             src={getImageUrl(thumbnail)}
             alt={name}
@@ -14,14 +14,15 @@ function SkillCard({ id, name, thumbnail }) {
           />
         </div>
 
-        <div>
-          <span className="text-lg font-bold text-white tracking-wide">
+        {/* Skill Name */}
+        <div className="mt-4 text-center">
+          <span className="text-lg font-semibold text-white tracking-wide shadow-md">
             {name}
           </span>
         </div>
       </div>
     </li>
-  )
+  );
 }
 
-export default SkillCard
+export default SkillCard;

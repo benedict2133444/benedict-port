@@ -41,7 +41,7 @@ function Hero() {
   <img
     src={HeroImage}
     alt="Benedict"
-    className="mx-auto w-full max-w-[600px] h-[700px]"
+    className="mx-auto w-full max-w-[600px] h-[650px]"
   />
 </div>  
       </div>
