@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 
+
 export default {
   content: ['./src/**/*.{mjs,js,ts,jsx,tsx}'],
   theme: {
+ 
     fontFamily: {
-      display: ['DM Serif Display']
+      display: ['UnifrakturMaguntia', 'serif']
     },
 
     extend: {
@@ -20,5 +22,6 @@ export default {
       }
     }
   },
+  
   plugins: []
 }

@@ -12,7 +12,7 @@ export const contactList = [
   {
     id: 'benedict2133444',
     thumbnail: 'contact/github.svg',
-    detail: 'github'
+    detail: 'benedict2133444'
   },
   {
     id: 'location',
