@@ -28,11 +28,11 @@ export const projectList = [
       'Kalan-an is your ultimate food ordering companion, designed to bring your favorite meals right to your doorstep with just a few taps. Whether youre craving pizza, sushi, or a healthy salad, our app offers a seamless and intuitive experience to satisfy your hunger anytime, anywhere.'
   },
   {
-    name: 'Online Voting System',
+    name: 'Tech Shop',
     id: 'ovs',
-    thumbnail: 'portfolio/portfolio_5.jpg',
+    thumbnail: 'portfolio/portfolio_5.png',
     description:
-      'A web-based application for managing and conducting elections online. Users can register, log in, vote for candidates, and see the results once voting ends. Security and privacy measures should be implemented.'
+      'Welcome to TechShop, where innovation meets convenience! We are your premier destination for the latest in technology and gadgets. Whether youre a tech enthusiast, a casual user, or a business professional, our extensive selection of cutting-edge electronics and accessories has something for everyone.'
   },
   {
     name: 'Expense Tracker',

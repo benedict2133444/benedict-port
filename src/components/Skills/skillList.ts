@@ -6,5 +6,5 @@ export const skillList = [
   { id: 'java', name: 'Java', thumbnail: 'skill/java.png' },
   { id: 'figma', name: 'Figma', thumbnail: 'skill/figma.png' },
   { id: 'mysql', name: 'Tailwind', thumbnail: 'skill/tailwind.png' },
-  { id: 'git', name: 'GIT', thumbnail: 'skill/git.png' }
+  { id: 'git', name: 'MongoDB', thumbnail: 'skill/mongo.png' }
 ]
