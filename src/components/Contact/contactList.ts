@@ -1,8 +1,11 @@
+import path from "path";
+
 export const contactList = [
   {
     id: 'email',
     thumbnail: 'contact/mail.svg',
-    detail: '@Benedictmasculino'
+    detail: '@Benedictmasculino',
+     path: 'mailto:MasculinoBenedict0528@gmail.com'
   },
   {
     id: 'number',
@@ -12,12 +15,14 @@ export const contactList = [
   {
     id: 'benedict2133444',
     thumbnail: 'contact/github.svg',
-    detail: 'benedict2133444'
+    detail: 'benedict2133444',
+    path:'https://github.com/benedict2133444'
   },
   {
     id: 'location',
     thumbnail: 'contact/location.svg',
-    detail: 'Oton, Iloilo'
+    detail: 'Oton, Iloilo',
+    path:'https://maps.app.goo.gl/W7gvwjWcnZM3dfTo9'
   }
 ]
 
