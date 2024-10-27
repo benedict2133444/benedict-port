@@ -24,5 +24,5 @@ export const contactList = [
     detail: 'Oton, Iloilo',
     path:'https://maps.app.goo.gl/W7gvwjWcnZM3dfTo9'
   }
-]
+];
 

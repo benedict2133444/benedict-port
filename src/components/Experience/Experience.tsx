@@ -5,7 +5,7 @@ import { Element } from 'react-scroll'
 const learningList = [
   { skill: 'HTML', percentage: 50 },
   { skill: 'CSS', percentage: 50 },
-  { skill: 'JavaScript', percentage: 25 },
+  { skill: 'Cisco', percentage: 25 },
   { skill: 'React', percentage: 25 },
   { skill: 'Tailwind CSS', percentage: 5 },
 ]
