@@ -2,7 +2,7 @@ import React from 'react'
 import getImageUrl from 'utils/image-util'
 
 function ContactItem(data) {
-  const { id, thumbnail, detail } = data
+  const { id, thumbnail, detail, href } = data
   return (
     <div
       key={id}
@@ -15,7 +15,20 @@ function ContactItem(data) {
           className="object-cover"
         />
       </div>
-      <a className="text-lg font-light text-bold text-text-secondary">{detail}</a>
+      {href ? (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-light text-bold text-text-secondary"
+        >
+          {detail}
+        </a>
+      ) : (
+        <span className="text-lg font-light text-bold text-text-secondary">
+          {detail}
+        </span>
+      )}
     </div>
   )
 }
